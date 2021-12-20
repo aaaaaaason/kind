@@ -1,0 +1,9 @@
+# https://github.com/bitnami/charts/tree/master/bitnami/postgresql
+global:
+  postgresql:
+    postgresqlDatabase: postgres
+    postgresqlUsername: postgres
+    postgresqlPassword: password
+
+persistence:
+  size: 16Gi
